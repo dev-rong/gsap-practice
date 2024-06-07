@@ -3,16 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev & npx next-video sync -w",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
+    "@vercel/blob": "^0.23.3",
     "gsap": "^3.12.5",
     "locomotive-scroll": "^4.1.4",
     "next": "14.2.3",
+    "next-video": "^1.1.0",
     "react": "^18",
     "react-dom": "^18"
   },
